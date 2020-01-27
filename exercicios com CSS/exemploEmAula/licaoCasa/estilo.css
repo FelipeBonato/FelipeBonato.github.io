@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 1px solid black;
+    height: 100vh;
+
+}
+
+.flex-item{
+    width: 50%;
+    height: 33vh;
+    background-color: brown;
+    border: 1px solid blue;
+
+}
+
+.flex-item:nth-child(2){
+    align-self: flex-end;
+}

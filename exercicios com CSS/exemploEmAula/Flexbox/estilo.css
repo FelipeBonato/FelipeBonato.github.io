@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /*mexer posicao na horizontal  */
+    align-items: flex-end; /*mexer posicao na vertical*/
+    border: 1px solid black;
+}
+
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 1px solid blue;
+}
+
+.flex-item:nth-child(3){
+    align-self: flex-start;
+    
+}

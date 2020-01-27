@@ -1,0 +1,53 @@
+/* Primeira aula de CSS */
+
+* {
+    /* color: yellow; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    color: red !important;
+    font-size: 150px;
+    /* text-decoration: ; */
+}
+
+.green {
+    color: green;
+    color: #501c17;
+    color: #e3e3e3ff;
+}
+
+#different {
+    color: blue;
+    font-family: 'MyFont';
+}
+
+/* @font-face{
+    url: 'path_to_font';
+    font-family: 'MyFont';
+} */
+
+div#container {
+    border: 2px solid red;
+    padding: 1rem;
+    /* margin: 2rem; */
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    border-radius: 1rem;
+    background-image: url('./image.png');
+    /* background-image: linear-gradient(10deg , red, black); */
+    /* background-image: linear-gradient(to bottom right, red, black); */
+    /* background-image: radial-gradient(black 70%, red, blue); */
+    /* background-image: linear-gradient(rgba(0, 0, 255, 0.7), rgba(0, 0, 255, 0.7)),
+                      url('./image.png'),
+                      url('./Mirow\ App.png'); */
+    background-size: 50% auto;
+    background-repeat: no-repeat;
+    background-position: top right;
+    /* margin-top: 1rem;
+    margin-right: 1.5rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem; */
+    background-color: skyblue;
+}

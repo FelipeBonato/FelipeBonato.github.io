@@ -1,0 +1,64 @@
+
+* {
+    /* color: yellow; */
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #132e4c;
+}
+
+#round {
+    width: 200px;
+    height: 200px;
+    background-image: url('./flooop.png'); 
+    background-position: center; /*centralizando logo*/
+    margin: 0 auto; /*centralizando div*/
+    background-size: 128px;
+    background-repeat: no-repeat;
+    background-color: #fff;
+    border-radius: 150px;
+
+}
+
+#round:hover { /* efeito de passar mouse por cima*/
+    background-image: url('../../SitePraia/imagens/logo.png');
+}
+
+#button-holder {
+    text-align: center;
+    padding: 1rem 0;
+    margin: 1rem 0;
+}
+
+#button-holder > a { /* > para endicar o primeiro <a> */
+    font-family: sans-serif;
+    text-decoration: none; /*tirar _________ */
+    color: #3D3D3D;
+    border-radius: 30px;
+    padding: 1rem 2rem;
+    background-image: linear-gradient(to right, #FDFDFD, #DEDEDE); /*gradiente para direita*/
+
+}
+
+#whatsapp {
+    width: 48px;
+    height: 48px;
+    border-radius: 50px;
+    background-color: green;
+    position: fixed;
+    border-width: 2px;
+    border-color: white; /*solid*/
+    border-style: solid;
+    bottom: 10px;
+    right: 10px;
+
+}
+
+#whatsapp:hover{
+border-style: dashed;
+transition-property: all;
+transition-duration: 1s; /*tempo de duracao*/

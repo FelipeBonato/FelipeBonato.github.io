@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #132e4c;
+        }
+
+        #round {
+            /* ./ : especifica um arquivo no mesmo diretório */
+            background-image: url('./idea.png');
+            background-position: center;
+            background-repeat: no-repeat;
+            background-color: #FFF;
+            /* background-size: 100%; */
+            border-radius: 150px;
+            width: 200px;
+            height: 200px;
+            margin: 0 auto;
+        }
+
+        #round:hover {
+            background-image: url('./idea-hover.png');
+        }
+
+        #button-holder{
+            /* border: 1px solid black; */
+            text-align: center;
+            padding: 1rem 0;
+            margin: 1rem 0;
+        }
+
+        #button-holder > a {
+            font-family: sans-serif;
+            text-decoration: none;
+            color: #3D3D3D;
+            background-image: linear-gradient(to right, #FDFDFD, #DEDEDE);
+            border-radius: 30px;
+            padding: 0.5rem 1rem;
+            
+        }
+    </style>
+</head>
+<body>
+    <div id="round">
+
+    </div>
+    <div id="button-holder">
+        <a href="#">
+            SAIBA MAIS
+        </a>
+    </div>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/* Primeira aula de CSS */
+
+* {
+    color: yellow;
+}
+
+h1 {
+    color: red;
+    font-size: 150px;
+}
+
+.green {
+    color: green;
+}
+
+#different {
+    color: blue;
+}

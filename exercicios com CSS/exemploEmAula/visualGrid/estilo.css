@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div.grid-container {
+    display: grid; 
+    /* display: inline-grid; permite a disposição de containers em linha */
+    /* grid-template-columns: 100px 100px 100px 100px; cria um template de 4 colunas de 100px*/
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; a unidade fr é fracionária ... */
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-rows: 1fr 1fr; */
+    grid-template-rows: repeat(3, 200px);
+    grid-template-areas:
+        "a a b b"
+        "a a c f"
+        "d e e f"
+    ;
+    /* height: 100vh; */
+}
+div.grid-item {
+    background-color: aqua;
+    border: 1px solid black;
+    /* width: 200px; */
+    /* height: 200px; */
+}
+#item-1{
+    grid-area: a;
+}
+#item-2{
+    grid-area: b;
+}
+#item-3{
+    grid-area: c;
+}
+#item-4{
+    grid-area: d;
+}
+#item-5{
+    grid-area: e;
+    background-color: red;
+}
+#item-6{
+    grid-area: f;
+}

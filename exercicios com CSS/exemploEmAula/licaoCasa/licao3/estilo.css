@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    margin-top: 40px;
+    height: 90vh;
+    background-image: url(./body-of-water-under-blue-and-white-skies-1533720.jpg);
+}
+
+.LT{
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+h1{
+ align-items: flex-start;
+ color: white;
+}
+
+ul {
+align-items: flex-end;
+list-style: none;
+}
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+    opacity: 0.8;
+}
+
+.conteudo{
+    margin-top: 20rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.meio{
+    font-size: 48px;
+    color: white;
+}
+
+.conteudo2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* align-items: center; */
+    color: white;
+    opacity: 0.8;
+}
+
+.conteudo3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.item{
+    align-self: center;
+    color: white;
+    border: 1px solid white;
+    margin: 10px 10px;
+    padding: 10px 30px;
+}
+.item2{
+    align-self: center;
+    color: white;
+    margin: 10px 10px;
+    padding: 10px 30px;
+    background-color: blueviolet;
+}
